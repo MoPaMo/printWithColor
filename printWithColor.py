@@ -15,7 +15,6 @@ colorTypes = {
     "VIOLETBG": '\33[45m',
     "BEIGEBG": '\33[46m',
     "WHITEBG": '\33[47m',
-
     "GREY": '\33[90m',
     "RED2": '\33[91m',
     "GREEN2": '\33[92m',
@@ -24,7 +23,6 @@ colorTypes = {
     "VIOLET2": '\33[95m',
     "BEIGE2": '\33[96m',
     "WHITE2": '\33[97m',
-
     "GREYBG": '\33[100m',
     "REDBG2": '\33[101m',
     "GREENBG2": '\33[102m',
