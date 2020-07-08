@@ -1,4 +1,3 @@
-function printC(term, color) {
-    console.log("color:" + color + " " + term)
+function printC(term, color, bg="inherit") {
+    console.log("%c" + term, "background:"+bg+"; color: "+color)
 }
-
