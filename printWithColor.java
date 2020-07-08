@@ -15,6 +15,13 @@ public class printWithColor {
 		colorValues.put("CYAN", "\u001B[36m");
 		colorValues.put("WHITE", "\u001B[37m");
 		bgValues.put("BLACK", "\u001B[40m");
+		bgValues.put("RED", "\u001B[41m");
+		bgValues.put("GREEN", "\u001B[42m");
+		bgValues.put("YELLOW", "\u001B[43m");
+		bgValues.put("BLUE", "\u001B[44m");
+		bgValues.put("PURPLE", "\u001B[45m");
+		bgValues.put("CYAN", "\u001B[46m");
+		bgValues.put("WHITE", "\u001B[47m");
 		alreadyBooted = true;
 	}
 
