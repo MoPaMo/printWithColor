@@ -42,7 +42,7 @@ colorTypes = {
 
 
 def printC(term, color):
-    """Print easily with color using printC(value, colorname). For more information, visit \33[4mhttps://github.com/MoPaMo/printWithColor#possible-values\33[0m"""
+    """Print easily with color using printC(value, colorname). For more information, visit https://github.com/MoPaMo/printWithColor#possible-values"""
     if(color in colorTypes):
         colorValue = colorTypes[color]
         print(colorValue, term, "\33[0m")
