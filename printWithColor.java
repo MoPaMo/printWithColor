@@ -1,5 +1,7 @@
+import java.util.HashMap;
 public class printWithColor {
-    public static void main(String[] args) {
-        System.out.println("\u001B[40mHello World!"+"\u001B[0m"); // Prints the string to the console.
+    private HashMap<String, String> map = new HashMap<String, String>();
+    public static void printC() {
+        System.out.println("\u001B[32mHello World!"+"\u001B[0m"); // Prints the string to the console.
     }
 }
