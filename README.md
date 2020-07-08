@@ -5,7 +5,9 @@ Colors can  change (or even don't be avaible) depending on the system / display!
 
 ## Python Version
 
-```import printWithColor
-printWithColor.printC(string, color)```
+```
+import printWithColor
+printWithColor.printC(string, color)
+```
 
 
