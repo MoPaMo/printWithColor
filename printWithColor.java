@@ -8,9 +8,9 @@ public class printWithColor {
                 colorValues.put("YELLOW", "\u001B[33m");
                 colorValues.put("BLUE", "\u001B[34m");
 		}
-	public static void printC() {
+	public static void printC(String color) {
         	bootArray();
-        	System.out.println(colorValues.get("YELLOW")+"Hello World!"+"\u001B[0m"); // Prints the string to the console.
+        	System.out.println(colorValues.get(color)+"Hello World!"+"\u001B[0m"); // Prints the string to the console.
 
     }
 }
