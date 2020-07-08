@@ -9,5 +9,17 @@ Colors can  change (or even don't be avaible) depending on the system / display!
 import printWithColor
 printWithColor.printC(string, color)
 ```
+## Java Version
+
+```
+printWithColor.printC(string, color);
+```
+
+## JS Version
+
+```
+printC(string, color)
+```
+Use a HTML color value for `color`
 
 
