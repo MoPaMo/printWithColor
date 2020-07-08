@@ -7,6 +7,10 @@ public class printWithColor {
                 colorValues.put("GREEN", "\u001B[32m");
                 colorValues.put("YELLOW", "\u001B[33m");
                 colorValues.put("BLUE", "\u001B[34m");
+                colorValues.put("PURPLE", "\u001B[35m");
+                colorValues.put("CYAN", "\u001B[36m");
+                colorValues.put("WHITE", "\u001B[37m");
+
 		}
 	public static void printC(String color) {
         	bootArray();
