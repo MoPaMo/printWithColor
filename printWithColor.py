@@ -1,5 +1,5 @@
 colorTypes = {
-    "END" = '\33[0m',
+    "END" : '\33[0m',
     "BOLD": '\33[1m',
     "ITALIC": '\33[3m',
     "URL": '\33[4m',
