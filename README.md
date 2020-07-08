@@ -60,6 +60,9 @@ printWithColor.printC(string, color)
 printWithColor.printC(string, color);
 ```
 
+###possible  values
+
+
 	* BLACK
 	* RED
         * GREEN
