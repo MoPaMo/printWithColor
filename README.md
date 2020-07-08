@@ -10,7 +10,8 @@ import printWithColor
 printWithColor.printC(string, color)
 ```
 ####  possible values
-    * END"
+
+    * END
     * BOLD
     * ITALIC
     * URL
