@@ -9,7 +9,8 @@ Colors can  change (or even don't be avaible) depending on the system / display!
 import printWithColor
 printWithColor.printC(string, color)
 ```
-hi
+
+
 ####  possible values
 
 * END
