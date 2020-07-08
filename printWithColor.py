@@ -31,7 +31,6 @@ bgValues = {
     "VIOLETBG": '\33[45m',
     "BEIGEBG": '\33[46m',
     "WHITEBG": '\33[47m',
-
     "GREYBG": '\33[100m',
     "REDBG2": '\33[101m',
     "GREENBG2": '\33[102m',
@@ -43,10 +42,13 @@ bgValues = {
 }
 
 
-def printC(term, color):
-    """Print easily with color using printC(value, colorname). For more information, visit https://github.com/MoPaMo/printWithColor#possible-values"""
+def printC(term, color, bg):
+    """Print easily with color using printC(value, colorname [backgroundcolor]). For more information, visit https://github.com/MoPaMo/printWithColor#possible-values"""
     if(color in colorTypes):
         colorValue = colorTypes[color]
-        print(colorValue, term, "\33[0m")
+        if (bg in bgValues):
+            print(colorValue, term, "\33[0m")
+        else:
+            raise KeyError('Backgroundcolor \''+bg+'\' doesnt exist - maybe a typo? ')
     else:
         raise KeyError('Color \''+color+'\' doesnt exist - maybe a typo? ')
