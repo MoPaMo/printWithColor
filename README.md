@@ -51,7 +51,7 @@ printWithColor.printC(string, color)
 * BLUEBG2
 * VIOLETBG2
 * BEIGEBG2
-*  WHITEBG2
+* WHITEBG2
     
    
 ## Java Version
@@ -60,6 +60,14 @@ printWithColor.printC(string, color)
 printWithColor.printC(string, color);
 ```
 
+	* BLACK
+	* RED
+        * GREEN
+        * YELLOW
+        * BLUE
+	* PURPLE
+	* CYAN 
+	* WHITE
 ## JS Version
 
 ```
