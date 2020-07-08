@@ -25,10 +25,10 @@ public class printWithColor {
 		alreadyBooted = true;
 	}
 
-	public static void printC(String term, String color) {
+	public static void printC(String term, String color, String bg) {
 		if (!alreadyBooted)
 			bootArray();
-		System.out.println(colorValues.get(color) + term + "\u001B[0m"); // Prints the string to the console.
+		System.out.println(bgValues.get(bg) +colorValues.get(color) + term + "\u001B[0m"); // Prints the string to the console.
 
 	}
 }
