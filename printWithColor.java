@@ -25,7 +25,7 @@ public class printWithColor {
 		alreadyBooted = true;
 	}
 
-	public static void printC(String color, String term) {
+	public static void printC(String term, String color) {
 		if (!alreadyBooted)
 			bootArray();
 		System.out.println(colorValues.get(color) + term + "\u001B[0m"); // Prints the string to the console.
