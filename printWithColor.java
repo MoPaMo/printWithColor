@@ -13,9 +13,9 @@ public class printWithColor {
                 colorValues.put("WHITE", "\u001B[37m");
 		alreadyBooted=true;
 		}
-	public static void printC(String color) {
+	public static void printC(String color, String term) {
         	if(!alreadyBooted)bootArray();
-        	System.out.println(colorValues.get(color)+"Hello World!"+"\u001B[0m"); // Prints the string to the console.
+        	System.out.println(colorValues.get(color)+term+"\u001B[0m"); // Prints the string to the console.
 
     }
 }
