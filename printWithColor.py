@@ -1,5 +1,5 @@
 colorTypes = {
-    "END" : '\33[0m',
+    "END": '\33[0m',
     "BOLD": '\33[1m',
     "ITALIC": '\33[3m',
     "URL": '\33[4m',
@@ -13,7 +13,16 @@ colorTypes = {
     "BLUE": '\33[34m',
     "VIOLET": '\33[35m',
     "BEIGE": '\33[36m',
-    "WHITE": '\33[37m',
+    "WHITE": '\33[37m', 
+    "GREY": '\33[90m',
+    "RED2": '\33[91m',
+    "GREEN2": '\33[92m',
+    "YELLOW2": '\33[93m',
+    "BLUE2": '\33[94m',
+    "VIOLET2": '\33[95m',
+    "BEIGE2": '\33[96m',
+    "WHITE2": '\33[97m', }
+bgValues = {
     "BLACKBG": '\33[40m',
     "REDBG": '\33[41m',
     "GREENBG": '\33[42m',
@@ -22,14 +31,7 @@ colorTypes = {
     "VIOLETBG": '\33[45m',
     "BEIGEBG": '\33[46m',
     "WHITEBG": '\33[47m',
-    "GREY": '\33[90m',
-    "RED2": '\33[91m',
-    "GREEN2": '\33[92m',
-    "YELLOW2": '\33[93m',
-    "BLUE2": '\33[94m',
-    "VIOLET2": '\33[95m',
-    "BEIGE2": '\33[96m',
-    "WHITE2": '\33[97m',
+
     "GREYBG": '\33[100m',
     "REDBG2": '\33[101m',
     "GREENBG2": '\33[102m',
@@ -46,5 +48,5 @@ def printC(term, color):
     if(color in colorTypes):
         colorValue = colorTypes[color]
         print(colorValue, term, "\33[0m")
-    else: raise KeyError('Color \''+color+'\' doesnt exist - maybe a typo? ')
-
+    else:
+        raise KeyError('Color \''+color+'\' doesnt exist - maybe a typo? ')
