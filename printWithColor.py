@@ -48,5 +48,3 @@ def printC(term, color):
         print(colorValue, term, "\33[0m")
     else: raise KeyError('Color \''+color+'\' doesnt exist - maybe a typo? ')
 
-
-printC("hi", "VOLET")
