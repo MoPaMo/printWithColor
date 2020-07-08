@@ -9,48 +9,50 @@ Colors can  change (or even don't be avaible) depending on the system / display!
 import printWithColor
 printWithColor.printC(string, color)
 ```
-
+hi
 ####  possible values
 
-    * END
-    * BOLD
-    * ITALIC
-    * URL
-    * BLINK
-    * BLINK2
-    * SELECTED
-    * BLACK
-    * RED
-    * GREEN
-    * YELLOW
-    * BLUE
-    * VIOLET
-    * BEIGE
-    * WHITE
-    * BLACKBG
-    * REDBG
-    * GREENBG
-    * YELLOWBG
-    * BLUEBG
-    * VIOLETBG
-    * BEIGEBG
-    * WHITEBG
-    * GREY
-    * RED2
-    * GREEN2
-    * YELLOW2
-    * BLUE2
-    * VIOLET2
-    * BEIGE2
-    * WHITE2
-    * GREYBG
-    * REDBG2
-    * GREENBG2
-    * YELLOWBG2
-    * BLUEBG2
-    * VIOLETBG2
-    * BEIGEBG2
-    *  WHITEBG2
+* END
+* BOLD
+* ITALIC
+* URL
+* BLINK
+* BLINK2
+* SELECTED
+* BLACK
+* RED
+* GREEN
+* YELLOW
+* BLUE
+* VIOLET
+* BEIGE
+* WHITE
+* BLACKBG
+* REDBG
+* GREENBG
+* YELLOWBG
+* BLUEBG
+* VIOLETBG
+* BEIGEBG
+* WHITEBG
+* GREY
+* RED2
+* GREEN2
+* YELLOW2
+* BLUE2
+* VIOLET2
+* BEIGE2
+* WHITE2
+* GREYBG
+* REDBG2
+* GREENBG2
+* YELLOWBG2
+* BLUEBG2
+* VIOLETBG2
+* BEIGEBG2
+*  WHITEBG2
+    
+   
 ## Java Version
 
 ```
