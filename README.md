@@ -1,5 +1,5 @@
-# printWithColor
-### easily print colorful messages in the terminal, no matter which language you're using!
+# printWithColor 
+### easily print colorful messages in the terminal, no matter which language you're using!🎨
 
 Colors can  change (or even don't be avaible) depending on the system / display!  
 
@@ -7,7 +7,7 @@ Colors can  change (or even don't be avaible) depending on the system / display!
 
 ```
 import printWithColor
-printWithColor.printC(string, color)
+printWithColor.printC(string, color, [background])
 ```
 
 
@@ -28,14 +28,6 @@ printWithColor.printC(string, color)
 * VIOLET
 * BEIGE
 * WHITE
-* BLACKBG
-* REDBG
-* GREENBG
-* YELLOWBG
-* BLUEBG
-* VIOLETBG
-* BEIGEBG
-* WHITEBG
 * GREY
 * RED2
 * GREEN2
@@ -44,37 +36,48 @@ printWithColor.printC(string, color)
 * VIOLET2
 * BEIGE2
 * WHITE2
-* GREYBG
-* REDBG2
-* GREENBG2
-* YELLOWBG2
-* BLUEBG2
-* VIOLETBG2
-* BEIGEBG2
-* WHITEBG2
+
+#### possible background values
+* BLACK
+* RED
+* GREEN
+* YELLOW
+* BLUE
+* VIOLET
+* BEIGE
+* WHITE
+* GREY
+* RED2
+* GREEN2
+* YELLOW2
+* BLUE2
+* VIOLET2
+* BEIGE2
+* WHITE2
     
    
 ## Java Version
 
 ```
-printWithColor.printC(string, color);
+printWithColor.printC(string, color, background);
 ```
+ _If you dont want to use a background type_ null _or ""_
+### possible  values
 
-###possible  values
 
-
-	* BLACK
-	* RED
-        * GREEN
-        * YELLOW
-        * BLUE
-	* PURPLE
-	* CYAN 
-	* WHITE
+* BLACK
+* RED
+* GREEN
+* YELLOW
+* BLUE
+* PURPLE
+* CYAN 
+* WHITE
+	
 ## JS Version
 
 ```
-printC(string, color)
+printC(string, color, [background])
 ```
 Use a HTML color value for `color`
 
